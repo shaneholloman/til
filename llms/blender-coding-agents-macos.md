@@ -40,4 +40,12 @@ I used GPT-6 Astra (Medium) in the ChatGPT macOS application, Codex mode:
 
 The project lives [in this repo](https://github.com/simonw/gpt-6-astra-blender-pelican-bicycle), and [here's the exported transcript from Codex](https://github.com/simonw/gpt-6-astra-blender-pelican-bicycle/blob/main/codex-transcript.md).
 
+## Creating a skill
 
+Codex makes it pretty easy to create skills (using its built-in skill creating skill), so I finished up by prompting:
+
+> `Create a quick skill that describes how to use the currently installed /Application/Blender based on what you learned`
+
+It produced and installed [this Markdown skill](https://github.com/simonw/gpt-6-astra-blender-pelican-bicycle/blob/main/outputs/blender-local/SKILL.md), which I have since used for further Blender experiments with prompts like this:
+
+> `Use your Blender Local skill to build this scene (attached image)`
